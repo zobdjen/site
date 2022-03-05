@@ -4,6 +4,7 @@ h1 {
     .dq1 {
     background-color:blue;
     width: 100px;
+    margin-bottom:100px;
     color:white;
     }
     span {
@@ -42,4 +43,7 @@ h1 {
     }
     a {
     color: blue;
+    }
+    .ser10 {
+        width: 200px;
     }
