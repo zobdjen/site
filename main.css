@@ -1,45 +1,6 @@
-h1 {
-    color:red;
-    }
-    .dq1 {
-    background-color:blue;
-    width: 100px;
-    color:white;
-    }
-    span {
-    color:red;
-    }
-    .sergey {
-    background-color:green;
-    color: #fff;
-    }
-    .ser1 {
+ body {
+    background: grey;
+ }
+ h1 {
     color: white;
-    background:green;
-    padding: 30px;
-    }
-    .segey {
-    color:white;
-    background-color:green;
-    padding-left: 10px;
-    padding-top: 2px;
-    }
-    .ser2 {
-    border: 1px solid #000000;
-    font-size: 25px;
-    }
-    .ser3 {
-    border: 1px solid #000000;
-    font-size: 25px;
-    }
-    .ser4 {
-    border: 1px solid #000000;
-    font-size: 25px;
-    }
-    .ser7 {
-    color: black;
-    padding-left:100px;
-    }
-    a {
-    color: blue;
-    }
+ }
