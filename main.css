@@ -69,6 +69,9 @@ padding-bottom: 140px;
     text-decoration: none;
     box-sizing: border-box;
 }
+.btn:hover {
+    text-transform:2 ;
+}
 .desktop{
     margin-top: 50px;
 }
@@ -78,7 +81,7 @@ padding-bottom: 140px;
 }
 .section-title{
     font-size: 30px;
-    text-align:center ;
+    text-align:center;
 }
 .skills{
     display: flex;
@@ -92,6 +95,7 @@ padding-bottom: 140px;
 }
 .skill-title{
     font-size: 19px;
+    padding-top: 10px;
 }
 .skill-text{
     margin-top: 30px;
@@ -99,7 +103,7 @@ padding-bottom: 140px;
 .skill-free{
     width: 325px;
 }
-.mail{
+.eail{
     background: #ecf2f8;
     padding-top: 110px ;
     padding-bottom: 105px; 
@@ -134,7 +138,6 @@ footer{
     background: #164d7a;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    margin-top: 100px;
 }
 .credits{
     color:#fff;
@@ -144,8 +147,6 @@ footer{
 .input{
     width: 100%;
 }
-/*Responsive*/
-/* 992px - 1200px */
 @media screen and (max-width:1200px) {
     .container{
         width: 	960px;
@@ -160,7 +161,6 @@ footer{
         width: auto;
     }
 }
-   /* 768px - 992px */
 @media screen and (max-width:992px) {
     .container{
         width: 	720px;
@@ -173,13 +173,11 @@ footer{
         margin-bottom: 30px;
     }
 }
-/* 576px - 768px */
 @media screen and (max-width:768px) {
     .container{
         width: 540px;
     }
 } 
-/* 0px - 576px */
 @media screen and (max-width:576px) {
     .container{
         width: 	85%;
