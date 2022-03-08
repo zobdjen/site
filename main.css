@@ -1,39 +1,196 @@
-h1 {
-  color:red;
+body{
+    font-family: 'Ubuntu Bold', sans-serif
+    padding 0;
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
 }
-.dq1 {
-  background-color:blue; 
-  width: 100px;
-  margin-bottom: 100px;
-  color:white;
+div, form, p, input, button, span, a, ul, li{
+    box-sizing: border-box;
 }
-  .fft {
-  width: 150px;
+h1, h2, h3, h4, h5, h6{
+    margin: 0 ;
+    font-family: 'Ubuntu Bolt', sans-serif;
+    font-weight: 700;
 }
-a {
-  color:blue;
+p{
+    line-height: 1,8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
-  span {
-      color:red;
-  }
-  h2 {
-      color: white;
-      background:green;
-      padding: 30px;
-      padding-left: 10px;
-      padding-top: 2px;
-      padding-bottom: 5px;
-  }
-  .ser1 {
-      padding: 45px 45px;
-  }
-  .ggd {
-      padding-left: 100px;
-  }
-li {
-  border: 1px solid #000000;
-  font-size: 25px;
+.container{
+    width: 1171px;
+    margin: 0 auto;
 }
-  .ser7 {
-      padding-left: 100px;
-  }
+.header{
+    background: rgba(121,199,251,1);
+background: -moz-linear-gradient(-45deg, rgba(121,199,251,1) 0%, rgba(93,158,219,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(121,199,251,1)), color-stop(100%, rgba(93,158,219,1)));
+background: -webkit-linear-gradient(-45deg, rgba(121,199,251,1) 0%, rgba(93,158,219,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(121,199,251,1) 0%, rgba(93,158,219,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(121,199,251,1) 0%, rgba(93,158,219,1) 100%);
+background: linear-gradient(135deg, rgba(121,199,251,1) 0%, rgba(93,158,219,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79c7fb', endColorstr='#5d9edb', GradientType=1 );
+padding-top: 70px;
+color: #fff;
+padding-bottom: 140px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.offer{
+    width: 562px;
+}
+
+.title{
+    font-size: 25px;
+}
+.title span {
+    font-size: 38px;
+}
+.inter{
+    margin-bottom: 47px;
+    width: 406px;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.btn {
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: 100px;
+    display:block ;
+    width: 230px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.desktop{
+    margin-top: 50px;
+}
+.learn{
+    padding-top: 98px;
+    padding-bottom: 120px;
+}
+.section-title{
+    font-size: 30px;
+    text-align:center ;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.skill{
+    width: 289px;
+    padding-top: 38px;
+    text-align:center   
+}
+.skill-title{
+    font-size: 19px;
+}
+.skill-text{
+    margin-top: 30px;
+}
+.skill-free{
+    width: 325px;
+}
+.mail{
+    background: #ecf2f8;
+    padding-top: 110px ;
+    padding-bottom: 105px; 
+}
+.input{
+    width: 350px;
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    height:43px;
+    padding-left: 22px;
+    display: block;
+}
+.form{
+    width: 340px;
+    margin: 0  auto;
+    margin-top: 66px;
+    box-sizing: border-box;
+}
+.email, .tel, .where{
+    margin-top: 15px;
+}
+ .btn.send{
+     margin-top: 15px;
+    width: 345px;
+    padding: 15px 0;
+    }
+footer{
+    padding-top: 66px;
+    padding-bottom: 60px;
+    background: #164d7a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.credits{
+    color:#fff;
+    font-style: 14px;
+    text-align: center;  
+}
+.input{
+    width: 100%;
+}
+/*Responsive*/
+/* 992px - 1200px */
+@media screen and (max-width:1200px) {
+    .container{
+        width: 	960px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .offer{
+        width: 100%;
+    }
+    .inter{
+        width: auto;
+    }
+}
+   /* 768px - 992px */
+@media screen and (max-width:992px) {
+    .container{
+        width: 	720px;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .skill{
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
+/* 576px - 768px */
+@media screen and (max-width:768px) {
+    .container{
+        width: 540px;
+    }
+} 
+/* 0px - 576px */
+@media screen and (max-width:576px) {
+    .container{
+        width: 	85%;
+    }
+    .input{
+        width: 85%;
+    }
+    .btn.send{
+        width: 85%;
+    }
+    .desktop{
+        width: 85%;
+    }
+}
