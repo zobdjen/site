@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 61px;
+    padding-bottom: 144px;
+    color: white;
+}
+.container{
+    width: 1171px;
+    margin: 0 auto;
+}
+.offer{
+    margin-top: 155px;
+    width: 487px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    display: block;
+    background-color: #ffd429;
+    width: 222px;
+    padding: 20px 0;
+    text-align: center;
+    color: #2e2a1b;
+    font-weight: 900;
+    font-family:'Ubuntu';
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color: #ff3300;
+    
+}
+.intro{
+    font-size: 37px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    
+}
+.intro span{
+    font-size: 59px;
+}
+.title{
+    font-size: 16px;
+    font-family:'Open+Sans';
+    margin-top: 50px;
+    margin-bottom: 45px;
+    width: 350px;
+}
+.roadlearn{
+    padding-top:110px;
+    padding-bottom: 122px;
+}
+.road{
+    font-family: 'Ububtu';
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+.kod1 {
+    margin: 0px;
+    margin-top: 22px;
+}
+.travel{
+    width: 314px;
+    text-align: center;
+    background: url(../img/icon1.png)no-repeat top;
+    padding-top: 30px;
+}
+.ser {
+    padding-top: 30px;
+}
+.travel1{
+    background: url(../img/icon2.png)no-repeat top;
+    padding-top: 30px;
+}
+.travel2{
+    background: url(../img/icon3.png)no-repeat top;
+    padding-top: 30px;
+}
+.wrapperRoad{
+    display: flex;
+    justify-content: space-between;
+}
+.formOrder{
+    padding-top: 103px;
+    padding-bottom: 103px;
+    text-align: center;
+    background-color: #ecf3f8;
+    font-family:'Ubuntu';
+}
+input{
+    display: block;
+    width: 340px;
+    padding: 20px 0 20px 20px;
+    margin-bottom: 16px;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 63px;
+}
+.btnfooter{
+    width: 360px;
+}
+.conyq {
+    padding-top: 62px;
+    padding-bottom: 65px;
+    margin:0px;
+    background-color:#164d7a;
+}
+.footerTitle {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open+Sans';
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
